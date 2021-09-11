@@ -1,8 +1,0 @@
-{
-    "AUTHOR" : "tomGER",
-    "DESCRIPTION" : "reddits game subreddit",
-    "SHORT" : "rgame plugin",
-    "DISABLED" : false,
-    "NAME" : "rgame",
-    "TAGS" : ["rgame", "level"]
-}
