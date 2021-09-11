@@ -6,8 +6,10 @@ Plugin for /r/game's Discord using the new Discord Slash commands.
 1. ```virtualenv env```
 2. ```source env/bin/activate```
 3. ```python -m pip -r requirements.txt```
-4. Add all needed informations into "config.py" (See PRAW Docs)
-5. ```python main.py```
+4. Add all needed informations into "config.py"
+     - In this case you only need to specify ```token = "YOUR DISCORD TOKEN"```
+     - You should also remember to change ```test_guilds``` in main.py since Slash commands require discord to approve them which takes *way too much time* for global commands to be worth it
+6. ```python main.py```
 
 ## License
 
