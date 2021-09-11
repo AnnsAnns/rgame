@@ -21,8 +21,8 @@ from dislash import InteractionClient, Option, OptionType
 from clues import clues
 
 bot = commands.Bot(command_prefix="!")
-# test_guilds param is optional, this is a list of guild IDs
-inter_client = InteractionClient(bot, test_guilds=[335895133805477889])
+# test_guilds exists because I can't be bothered to have to wait 3 years for discord to accept slash-commands
+inter_client = InteractionClient(bot, test_guilds=[335895133805477889, 364791892635811840])
 
 desc = "Gives a clue for /r/game"
 option = [Option("level", "Specify the level to give the hint for", OptionType.STRING, required=True)]
