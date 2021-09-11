@@ -40,4 +40,8 @@ async def hint(ctx, level):
 async def level(ctx, level):
     await hint(ctx, level)
     
+@inter_client.slash_command(description = "Link to the source code of the bot")
+async def source(ctx):
+    await ctx.send("The Source Code can be found at: https://github.com/tumGER/rgame")
+    
 bot.run(config.token)
